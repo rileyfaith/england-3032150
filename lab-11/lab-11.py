@@ -16,7 +16,7 @@ class Sorting:
     def selection_sort(self):
         n = len(self.arr)
         for i in range(n - 1):
-            min_idx = 1
+            min_idx = i
             for j in range(i + 1, n):
                 if self.arr[j] < self.arr[min_idx]:
                     min_idx = j
@@ -43,7 +43,7 @@ class Sorting:
         a = self.arr
         n = len(a)
 
-        for i in range(n // 1 - 2, -1, -1):
+        for i in range(n // 2 - 1, -1, -1):
            self._max_heapify(a, n, i)
         for end in range(n - 1, 0, -1):
            a[0], a[end] = a[end], a[0]
