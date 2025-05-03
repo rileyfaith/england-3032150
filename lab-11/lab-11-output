@@ -1,0 +1,11 @@
+Selection Sort: None
+Passed!
+Heap Sort: None
+Passed!
+Merge Sort: None
+Array Size              Selection Sort          Heap Sort               Merge Sort
+10000           2.251096                0.021793                0.018506
+20000           8.890636                0.046848                0.047085
+30000           20.046776               0.075125                0.059399
+40000           35.671197               0.103459                0.080458
+50000           55.909740               0.131608                0.101386
