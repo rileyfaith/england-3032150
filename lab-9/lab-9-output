@@ -1,0 +1,12 @@
+BFS Shortest Path from 0 to 19: [0, 1, 4, 9, 19] 
+BFS Shortest distance from 0 to 19: 4
+DFS Shortest Path from 0 to 19: [0, 1, 4, 9, 19]
+DFS Shortest distance from 0 to 19: 4
+Number of connected components in the graph: 1
+Is the large graph bipartite? No
+BFS Shortest Path from 0 to 5: [0, 3, 2, 5]
+BFS Shortest distance from 0 to 5: 3
+DFS Shortest Path from 0 to 5: [0, 3, 2, 5]
+DFS Shortest distance from 0 to 5: 3
+Number of connected components in the graph: 2
+Is the large graph bipartite? Yes
